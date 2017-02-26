@@ -1,6 +1,6 @@
 function exampleFunction () {
   A.find({}, (err, aData) => {
-  if(err) console.log(err)
+    if(err) console.log(err)
     B.find({}, (err, bData) => {
       if(err) console.log(err)
       C.find({}, (err, cData) {
