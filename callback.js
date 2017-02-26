@@ -1,4 +1,4 @@
-exampleFunction () => {
+(exampleFunction () => {
   A.find({}, (err, aData) => {
     if(err) console.log(err)
     B.find({}, (err, bData) => {
@@ -11,4 +11,4 @@ exampleFunction () => {
       })
     })
   })
-}
+})
